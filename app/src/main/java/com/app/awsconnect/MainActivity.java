@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initUI() {
-        txtConnectStatus = findViewById(R.id.txt_connect_status);
-        txtConnectDetail = findViewById(R.id.txt_connect_times);
         btnConnect = findViewById(R.id.btn_connect);
         btnConnect.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,5 +80,6 @@ public class MainActivity extends AppCompatActivity {
         dialogFragment.setContentView(R.layout.dialog_progress)
                 .setNeedProgress(true)
                 .show(getFragmentManager(), TAG);
-    }
+                AwsManager manager = new AwsManager(ActivityManager.getMainActivity());
+            }
 }

@@ -11,7 +11,6 @@ import android.util.Log;
 
 import androidx.lifecycle.MutableLiveData;
 
-import com.app.awsconnect.R;
 import com.app.awsconnect.aws.ProvisioningRepository;
 import com.app.awsconnect.utils.AwsConfig;
 import com.app.awsconnect.utils.ConstantNumber;
@@ -41,7 +40,6 @@ public class AwsManager implements ConstantNumber {
 	public AwsManager(Context context){
 		this.mRepository = new ProvisioningRepository(getAwsConfig(context),
 		PreferenceManager.getDefaultSharedPreferences(context.getApplicationContext()));
-
 		Handler mHandler = new Handler(Looper.getMainLooper())
 		{
 			@Override

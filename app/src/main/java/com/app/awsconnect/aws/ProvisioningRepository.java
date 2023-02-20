@@ -27,7 +27,6 @@ import org.json.JSONObject;
 import java.security.KeyStore;
 import java.util.concurrent.atomic.AtomicInteger;
 
-
 /**
  * Fleet Provisioning
  */
@@ -229,5 +228,4 @@ public class ProvisioningRepository implements ConstantNumber {
                 RepositoryCallback.Status.Registered : RepositoryCallback.Status.Unregister;
         callback.onStatusChanged(status, null, null);
     }
-
 }

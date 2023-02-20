@@ -1,0 +1,31 @@
+{
+  "ControlSetting":{
+    "LoginPassword":"00000000",
+    "SpecialFare": [
+      {
+        "Name": "キャンペーン",
+        "Value": 50
+      },
+      {
+        "Name": "環境定期",
+        "Value": 100
+      }
+    ],
+    "UserCode":"0000",
+    "OfficeNum":255,
+    "ReaderNum":2
+  },
+  
+  "ReaderSetting":{
+    "PayResultDispTime":5,
+    "DoorDetectLv":26,
+    "SoundVolume":10
+  },
+  
+
+  "VehicleSetting":{
+    "VehicleNum":"0000",
+    "SequenceNum":"0000"
+  }
+  
+}

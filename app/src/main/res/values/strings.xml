@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AWSConnect</string>
+
+    <!-- 通信中 -->
+    <string name="progress">通信中..</string>
+    <string name="aws_register_progress">AWS Not Register..</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- 通信中ダイアログ -->
+    <dimen name="dialog_text_margin_top">48.4dp</dimen>
+    <dimen name="dialog_text_line_spacing_extra">10dp</dimen>
+    <dimen name="dialog_text_size">21.7dp</dimen>
+    <dimen name="dialog_paddingStart">18dp</dimen>
+    <dimen name="dialog_paddingEnd">18dp</dimen>
+
+</resources>
+

@@ -1,0 +1,13 @@
+{
+  "master_info":
+  [
+    {"paraName":"汎用パラメータSUM", "size":4, "radix":0, "changeable":false, "invisible":false, "explanation":"保存ボタン押下時に更新"},
+    {"paraName":"予備1", "size":4, "radix":0, "changeable":true, "invisible":true, "explanation":"説明"},
+    {"paraName":"データバージョン", "size":7, "radix":1, "changeable":true, "invisible":false, "explanation":"説明"},
+    {"paraName":"予備2", "size":1, "radix":0, "changeable":false, "invisible":true, "explanation":"説明"},
+    {"paraName":"設定する時計情報", "size":6, "radix":1, "changeable":true, "invisible":false, "explanation":"0：有効, 1：無効"},
+    {"paraName":"予備3", "size":10, "radix":0, "changeable":false, "invisible":true, "explanation":"説明"},
+    {"paraName":"乗務員番号", "size":4, "radix":1, "changeable":true, "invisible":false, "explanation":""},
+    {"paraName":"予備4", "size":220, "radix":0, "changeable":false, "invisible":true, "explanation":"説明"}
+  ]
+}

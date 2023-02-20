@@ -1,0 +1,14 @@
+{
+  "master_info":
+  [
+    {"paraName":"ヘッダSUM", "size":4, "radix":0, "changeable":false, "invisible":false, "explanation":"保存ボタン押下時に更新"},
+    {"paraName":"パラメータ数", "size":1, "radix":1, "changeable":true, "invisible":false, "explanation":"説明"},
+    {"paraName":"予備1", "size":3, "radix":0, "changeable":false, "invisible":true, "explanation":"説明"},
+    {"paraName":"データバージョン", "size":7, "radix":1, "changeable":true, "invisible":false, "explanation":"説明"},
+    {"paraName":"予備2", "size":1, "radix":0, "changeable":false, "invisible":true, "explanation":"説明"},
+    {"paraName":"パラメータ(1)ヘッダ 開始アドレス", "size":4, "radix":0, "changeable":true, "invisible":false, "explanation":"0：有効, 1：無効"},
+    {"paraName":"パラメータ(1)ヘッダ サイズ", "size":4, "radix":0, "changeable":true, "invisible":false, "explanation":"説明"},
+    {"paraName":"パラメータ(2)ヘッダ 開始アドレス", "size":4, "radix":0, "changeable":true, "invisible":false, "explanation":""},
+    {"paraName":"パラメータ(2)ヘッダ サイズ", "size":4, "radix":0, "changeable":true, "invisible":false, "explanation":""}
+  ]
+}
